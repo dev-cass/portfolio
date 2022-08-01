@@ -1,0 +1,141 @@
+
+.navigation-bar {
+  position: fixed;
+  z-index: 999;
+  padding: 20px 0;
+  background-color: #321253;
+  width: 100%;
+}
+
+.navigation-bar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-and-name {
+  display: flex;
+  align-items: center;
+}
+
+.logo-and-name span {
+  color: #f766fa;
+}
+
+.logo-and-name img {
+  width: 40px;
+  padding-right: 5px;
+}
+
+.navigation-list ul {
+  display: flex;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 650;
+}
+
+.navigation-list ul li {
+  padding: 15px;
+}
+
+.navigation-list ul li a:hover {
+  color: #f766fa;
+}
+
+.navigation-list ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-links {
+  height: 100%;
+}
+
+.navbar-links ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 2rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+
+
+@media (max-width: 50.000em) {
+  .max-width {
+    max-width: 800px;
+    padding: 0 30px 0 30px;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .navigation-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    height: max-content;
+  }
+
+  .logo-and-name {
+    width: 100%;
+  }
+
+  .logo-and-name img {
+    width: 1.875em;    
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo-and-name h1 {
+    font-size: 1.25rem;
+  }
+
+  .navigation-list {
+    width: 100%;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-links ul li {
+    text-align: center;
+  }
+
+  .navbar-links ul li a {
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+}

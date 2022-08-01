@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #321253;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow: auto;
+}
+
+.max-width {
+  max-width: 87.5em;
+  padding: 0 70px 0 70px;
+  margin: auto;
+  width: 100vw;
+}
+
+.homepage-section .homepage-content,
+.about-section .about-content,
+.skills-section .skills-content,
+.project-section .project-content,
+.contact-section .contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-width: 100%;
+}

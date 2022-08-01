@@ -1,0 +1,110 @@
+.skills-section {
+  padding: 100px 0;
+}
+
+.skill-header {
+  font-family: "League Spartan", sans-serif;
+  font-size: 3.125rem;
+  font-weight: 600;
+  color: #f766fa;
+  padding-bottom: 20px;
+}
+
+.skill-details {
+  text-align: center;
+}
+
+.skill-details p {
+  font-family: "Roboto", Arial;
+  font-size: 1.25rem;
+  font-weight: 500;
+  width: 100%;
+  padding: 0 200px;
+}
+
+.technology-content {
+  width: 100%;
+  padding-top: 70px;
+}
+
+.technology-header {
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.875rem;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.tech-icons {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.tech-icons img {
+  flex-direction: row;
+  width: 75px;
+  height: 100%;
+  padding-bottom: 70px;
+  align-self: center;
+}
+
+.framework-icons {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.framework-icons img {
+  flex-direction: row;
+  width: 75px;
+  height: 100%;
+  padding-bottom: 70px;
+  align-self: center;
+}
+
+@media (max-width: 800px) {
+  .skill-header {
+    font-size: 2.5rem;
+    
+  }
+
+  .skill-details p {
+    font-size: 1.25rem;
+    font-weight: 500;
+    width: 100%;
+    padding: 0 5px;
+  }
+
+  .technology-header {
+    font-size: 1.25rem;
+  }
+
+  .tech-icons {
+    display: flex;
+    flex: 1fr 1fr;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .tech-icons img {
+    flex-direction: row;
+    width: 14%;
+    height: 100%;
+    padding-bottom: 50px;
+    align-self: center;
+  }
+  
+  .framework-icons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .framework-icons img {
+    flex-direction: row;
+    width: 60px;
+    height: 100%;
+    padding-bottom: 60px;
+    align-self: center;
+  }
+}
