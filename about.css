@@ -3,11 +3,11 @@
 }
 
 .about-column-left {
-  width: 50%;
+  width: 65%;
 }
 
 .about-column-right {
-  width: 50%;
+  width: 35%;
 }
 
 .about-header {
@@ -75,7 +75,7 @@
 
   .about-paragraph p {
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     padding-bottom: 1.3em;
   }
 
